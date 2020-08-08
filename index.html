@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Assignment</title>
+    <style>
+        .formdiv {
+            width: 55%;
+            background-color: rgb(214, 219, 228);
+            margin: 7%;
+            padding: 3%;
+            display: inline-block;
+        }
+        #firstname{
+            width: 700px;
+        }
+        #lastname{
+            width: 700px;
+        }
+        #country{
+            width: 700px; ;
+        }
+        .btn{
+            background-color: green;
+        }
+        textarea{
+            width:700px ;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="formdiv">
+        <form action="">
+            <div>
+            <label for="FIRSTNAME">First Name</label> <br>
+            <input type="text" name="firstname" id="firstname" placeholder="First Name"><br>
+            </div>
+
+            <div>
+                   <label for="LASTNAME">Last Name</label> <br>
+            <input type="text" name="lastname" id="lastname" placeholder="Last Name">
+  
+            </div>
+       
+            <label for="country">Country</label><br>
+            <select name="country" id="country"><br>
+                <option value="Afganistan">Afghanistan</option>
+                <option value="Albania">Albania</option>
+                <option value="Algeria">Algeria</option>
+                <option value="American Samoa">American Samoa</option>
+                <option value="Andorra">Andorra</option>
+                <option value="Angola">Angola</option>
+                <option value="Anguilla">Anguilla</option>
+                <option value="Antigua & Barbuda">Antigua & Barbuda</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Armenia">Armenia</option>
+                <option value="Aruba">Aruba</option>
+            </select>
+
+            <label for="Subject">Subject</label><br>
+            <textarea name="subject" id="" cols="50" rows="10"  placeholder="Write something.."> Write something...</textarea><br>
+        <div>
+            <button class="btn" type="submit">Submit</button>
+        </div> 
+    </form>
+
+</body>
+
+</html>
